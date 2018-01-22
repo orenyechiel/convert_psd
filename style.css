@@ -1,0 +1,494 @@
+hr {
+    height: 2px;
+    width: 43px;
+}
+
+/* Style for "background" */
+
+.main {
+    background: url('pic/background.png') center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 659px;
+}
+
+nav {}
+
+nav a {
+    color: #ffffff;
+    font-family: 'Mukta', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ffffff;
+    text-decoration: overline;
+    text-decoration-color: #54d154;
+    font-weight: 700;
+}
+
+.main h4 {
+    font-family: 'Lobster', cursive;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.searchbar {
+    float: right;
+    position: relative;
+}
+
+.search {
+    color: #111111;
+    position: absolute;
+    z-index: 1;
+    top: 7.5px;
+    right: 20px;
+}
+
+.main input[type=search] {
+    border: none;
+    background-color: #ffffff;
+    opacity: 0.8;
+    border-radius: 65px;
+}
+
+.main input[type=search]::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: black;
+}
+
+/* Style for "Art is Ete" */
+
+header h1 {
+    font-family: Montserrat;
+    font-size: 55px;
+    font-weight: 700;
+}
+
+/* Style for "Work with us" */
+
+.wwu {
+    background-color: #54d154;
+    border-radius: 50px;
+    margin: 0 auto;
+    width: 211px;
+}
+
+.wwu a {
+    font-family: 'Mukta', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.scroll {
+    background-color: white;
+    border-radius: 40px;
+    position: absolute;
+    width: 120px;
+    opacity: 0.7;
+    bottom: 8%;
+    right: 0;
+    left: 0;
+}
+
+/* Style for "What with do" */
+
+.wwd h2 {
+    font-family: Montserrat;
+    letter-spacing: 3.2px;
+    color: #828181;
+    font-size: 21px;
+    font-weight: 300;
+}
+
+.wwd p {
+    color: #b7b3b3;
+    font-family: "Open Sans";
+    font-weight: 300;
+}
+
+.items {
+    margin-top: 71px;
+    margin-bottom: 73px;
+}
+
+.item {
+    text-align: center;
+    color: #828181;
+}
+
+.item p {
+    color: #828181;
+}
+
+.item a {
+    font-family: 'Mukta', sans-serif;
+    background-color: #54d154;
+    color: #ffffff;
+    border-radius: 50px;
+    padding: 1px 15px;
+    text-decoration: none;
+}
+
+.icon {
+    padding-top: 22%;
+}
+
+.rounded-icon {
+    width: 142px;
+    height: 142px;
+    background-color: #e1f3e1;
+    border-radius: 28px;
+    margin: 0 auto;
+}
+
+/* Style for "Our latest work" */
+
+.olw {
+    background-color: #54d154;
+    font-family: Montserrat;
+}
+
+.olw h2 {
+    letter-spacing: 3.2px;
+    font-weight: 300;
+    font-size: 21px;
+    color: #207b20;
+}
+
+.olw p {
+    color: #2b9b2b;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.olw button {
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#photography {
+    color: white;
+    background-color: #2b9b2b;
+    border-radius: 25px 0 0 25px;
+}
+
+#design {
+    color: #2b9b2b;
+    background-color: white;
+}
+
+#print {
+    color: #2b9b2b;
+    background-color: white;
+    border-left-style: solid;
+    border-radius: 0 25px 25px 0;
+}
+
+.slides {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.slides ul {
+    list-style-type: none;
+    margin: auto;
+}
+
+.slides ul li {
+    display: inline-block;
+    margin: 15px 15px;
+    float: left;
+}
+
+.vmw {
+    width: 180px;
+    padding: 8px 15px;
+    border-radius: 20px;
+    background-color: #2b9b2b;
+    margin: 0 auto;
+}
+
+.vmw a {
+    font-family: 'Mukta', sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+/* Style for "testimonial" */
+
+.testimonial h2 {
+    font-family: Montserrat;
+    letter-spacing: 3.2px;
+    font-weight: 300;
+    font-size: 21px;
+    color: #828181;
+}
+
+.testi_lorem {
+    color: #b7b3b3;
+    font-weight: 300;
+    font-family: "Open Sans";
+}
+
+.herp {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 2px solid #e1e1e1;
+}
+
+.mr {
+    font-family: 'Mukta', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#herp {
+    font-family: 'Mukta', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #cccccc;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    font-size: 55px;
+    font-weight: 400;
+    color: #e1e1e1;
+}
+
+
+/* Style for "Our happy client" */
+
+.client {
+    font-family: Montserrat;
+    font-weight: 300;
+    color: #828181;
+    background-color: #f2f1f1;
+}
+
+.client h2 {
+    letter-spacing: 3.2px;
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: 300;
+}
+
+.client p {
+    color: #b7b3b3;
+    font-weight: 300;
+    font-family: "Open Sans";
+}
+
+.logo {
+    text-align: center;
+    margin: 18px auto;
+}
+
+.vertical_helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.logo img {
+    vertical-align: middle;
+}
+
+.sac {
+    background-color: #dddcdc;
+    width: 175px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 6px 6px;
+    border-radius: 28px;
+}
+
+.sac a {
+    font-family: 'Mukta', sans-serif;
+    text-decoration: none;
+    color: #a59d9d;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* Style for "Our team" */
+
+.team {
+    text-align: center;
+    color: #207b20;
+    background-color: #54d154;
+    font-family: Montserrat;
+}
+
+.team h2 {
+    letter-spacing: 3.2px;
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: 300;
+}
+
+.team h6 {
+    color: white;
+    font-family: 'Mukta', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.team p {
+    color: #2b9b2b;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.teamate-line {
+    width: 2px;
+    height: 77px;
+    background-color: #207b20;
+    margin: 6px auto;
+}
+
+.social {
+    width: 84px;
+    height: 28px;
+    background-color: #c5e9c5;
+    border-radius: 17px;
+    margin: 0 auto;
+}
+
+/* Style for the second "Work with us title" */
+
+.wwu2 {
+    text-align: center;
+    box-shadow: -2px 5px 5px rgba(0, 0, 0, 0.1);
+    background-color: #54d154;
+    line-height: 30px;
+    border-radius: 50px;
+    margin: 27px auto;
+    width: 190px;
+}
+
+.wwu2 a {
+    color: #ffffff;
+    font-family: 'Mukta', sans-serif;
+    font-size: 19px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+/* Style for "contact" */
+
+.footer {
+    background-color: #333333;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.footer h4,
+p,
+address {
+    color: #dddddd;
+}
+
+.footer hr {
+    color: #dddddd;
+    width: 30px;
+    height: 5px;
+}
+
+.recent ul {
+    list-style-type: none;
+}
+
+.recent ul li {
+    display: inline-flex;
+}
+
+.recent ul li img {
+    float: left;
+    margin-right: 9px;
+}
+
+.recent ul li span {
+    float: left;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 300;
+    padding: 1px 3px;
+    border-radius: 5px;
+}
+
+input[type=name] {
+    border-radius: 4px 4px 0 0;
+}
+
+textarea,
+input[type=name],
+input[type=email] {
+    width: 100%;
+    color: #f2f0f0;
+    background-color: #777777;
+    border: none;
+    border-bottom: 1px solid #333333;
+}
+
+input[type=submit] {
+    color: white;
+    background-color: #2b9b2b;
+    border-radius: 0 0 4px 4px;
+    width: 100%;
+    border: none;
+}
+
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #f2f0f0;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #f2f0f0;
+}
+
+:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #f2f0f0;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: #f2f0f0;
+}
+
+.links {
+    background-color: #e6e7e6;
+    border-radius: 17px;
+    margin: 0 auto;
+    width: 84px;
+    height: 28px;
+}
+
+/* Style for the "bottom line" */
+
+.end {
+    color: #101010;
+    font-family: Montserrat;
+    background-color: #222222;
+}
+
+.end h4 {
+    letter-spacing: 2.49px;
+}
